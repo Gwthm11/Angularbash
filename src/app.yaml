@@ -1,0 +1,11 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: dist/Angular12FileUpload/index.html
+  upload: dist/Angular12FileUpload/index.html
+
+- url: /
+  static_dir: dist/Angular12FileUpload
